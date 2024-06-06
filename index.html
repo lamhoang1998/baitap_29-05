@@ -4,11 +4,120 @@
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>Document</title>
+		<link rel="stylesheet" href="styles.css" />
 	</head>
 	<body>
-		<label for="value">Get integer values:</label>
-		<input type="number" name="value" id="value" />
-		<button id="getValue">get value</button>
+		<div class="container">
+			<section class="display-value">
+				<div class="style-input">
+					<label for="value">Get integer values:</label>
+					<input type="number" name="value" id="value" />
+					<button class="btn" id="getValue">get value</button>
+				</div>
+				<p class="result" id="array-result">Current Array:</p>
+			</section>
+			<section>
+				<div class="style-input">
+					<label>
+						Get the result of the sum of positive integers in the array:
+					</label>
+					<button class="btn" id="sum">get result</button>
+				</div>
+				<p class="result" id="sum-result">Sum:</p>
+			</section>
+			<section>
+				<div class="style-input">
+					<p>Count the number of positive integers in the array:</p>
+					<button class="btn" id="count-positive">get result</button>
+				</div>
+				<p class="result" id="count-positive-result">
+					The number for positive integers:
+				</p>
+			</section>
+			<section>
+				<div class="style-input">
+					<label>Find the smallest value:</label>
+					<button class="btn" id="smallest-value">get result</button>
+				</div>
+				<p class="result" id="smallest-value-result">
+					The smallest value in the array:
+				</p>
+			</section>
+			<section>
+				<div class="style-input">
+					<label>Find the smallest positive value:</label>
+					<button class="btn" id="smallest-positive-value">get result</button>
+				</div>
+				<p class="result" id="smallest-positive-result">
+					The smallest positive value in the array:
+				</p>
+			</section>
+			<section>
+				<div class="style-input">
+					<label>Find the last even number in the array:</label>
+					<button class="btn" id="last-even-number">get result</button>
+				</div>
+				<p class="result" id="even-number-result">
+					The last even number in the array:
+				</p>
+			</section>
+			<section>
+				<p class="swap-array">Swap two values in the array:</p>
+				<div class="style-input">
+					<label for="first-index">Get the first index:</label>
+					<input type="number" name="first-index" id="first-index" />
+				</div>
+				<div class="style-input">
+					<label for="second-index">Get the second index:</label>
+					<input type="number" name="second-index" id="second-index" />
+				</div>
+				<div class="swap-btns">
+					<button class="btn" id="swap-btn">get result</button>
+				</div>
+				<p class="result" id="swap-result">The array after swaping:</p>
+			</section>
+			<section>
+				<div class="style-input">
+					<p>Sort the array in the ascending order:</p>
+					<button class="btn" id="sorting-btn">get result</button>
+				</div>
+				<p class="result" id="sorting-result">The array after sorting:</p>
+			</section>
+			<section>
+				<div class="style-input">
+					<p>Get the first prime number in the array</p>
+					<button class="btn" id="prime-number-value">get result</button>
+				</div>
+				<p class="result" id="prime-number-result">
+					The first prime number in the array:
+				</p>
+			</section>
+			<section>
+				<div class="style-input">
+					<label for="whole-numbers">Get whole numbers:</label>
+					<input type="number" name="whole-numbers" id="whole-numbers" />
+					<button class="btn" id="get-whole-numbers">get value</button>
+				</div>
+				<p class="result" id="whole-number-result">Current whole number:</p>
+				<div class="style-input">
+					<p>Count the number of integers in the whole number array:</p>
+					<button class="btn" id="count-integer-numbers">get result</button>
+				</div>
+				<p class="result" id="integer-numbers-result">
+					The number of integer values in the whole number array:
+				</p>
+			</section>
+			<section>
+				<div class="style-input">
+					<p>
+						Compare the number of positive and negative integer values in the
+						array
+					</p>
+					<button class="btn" id="compare-integer">get value</button>
+				</div>
+				<p class="result" id="compare-result">After compare:</p>
+			</section>
+		</div>
 		<script src="index.js"></script>
 	</body>
 </html>
